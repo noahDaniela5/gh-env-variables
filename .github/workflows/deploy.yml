@@ -9,10 +9,10 @@ env:
 jobs:
   test:
     env: #environment variables given by mongo db
-    MONGODB_CLUSTER_ADDRESS: cluster0.kvfhave.mongodb.net
-    MONGODB_USERNAME: noahDaniela
-    MONGODB_PASSWORD: ucxRAcd9YNraTI8U
-    PORT: 8080
+      MONGODB_CLUSTER_ADDRESS: cluster0.kvfhave.mongodb.net
+      MONGODB_USERNAME: noahDaniela
+      MONGODB_PASSWORD: ucxRAcd9YNraTI8U
+      PORT: 8080
     environment: testing
     runs-on: ubuntu-latest
     steps:
